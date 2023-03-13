@@ -124,7 +124,7 @@ public class ImageUtil {
         outputArray[i][j] = val;
       }
     }
-    createPPMFile("P3",width,height,255,outputArray);
+    //createPPMFile("P3",width,height,255,outputArray);
     return outputArray;
   }
 
@@ -244,7 +244,7 @@ public class ImageUtil {
   //demo main
   public static void main(String []args) throws IOException {
       String filename;
-      Image_Util img = new Image_Util();
+      ImageUtil img = new ImageUtil();
       
       if (args.length>0) {
           filename = args[0];
